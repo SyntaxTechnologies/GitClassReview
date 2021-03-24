@@ -1,0 +1,20 @@
+Class 2
+
+Runner Class:
+will help us to execute our cucumber tests by Using JUnit
+
+Hooks
+are annotation based library which give us an opportunity to start a test and end the test
+Hooks will be applied to all the test by default
+
+@After annotation will be executed no matter of the test result.
+Even if your test fails in the middle of the execution your @After hook will get executed
+
+HW
+Come up with test scenarios which adds an employee
+1. Without login details
+2. with login details
+
+Create 2 more runners
+Smoke Test
+Regression test

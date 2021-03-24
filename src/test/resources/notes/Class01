@@ -1,0 +1,63 @@
+Cucumber Class 1
+
+Cucumber:
+is an automation tool which supports BDD(behavioral driven development)
+
+BDD is an Agile software development process that creates a collaboration between QAs, developers and any non-technical team members
+
+Cucumber uses a language called gherkin, which makes our test cases look in plain English
+
+Gherkin keywords:
+Given: precondition
+When: action
+Then: result/outcome
+And: continuation of the steps above (given, when, then)
+
+As a user I must be able to login to HRMS application with valid given
+credentials
+
+Given navigate to HRMS login page
+When enter valid credentials
+And click on login button
+Then verify dashboard logo is displayed
+And verify username is correct
+
+BaseClass --> starting point
+
+PageInitializer - initialize our objects
+
+CommonMethods --> common functions
+
+In order to write a test case in cucumber you will need feature file.
+
+To have a feature file, you have to create a file with an extension .feature
+
+
+Benefits of Cucumber:
+- used gherking language and plain english
+- free, open source tool
+- compatible to use with different programming languages
+	such as Java, Ruby, .NET, python
+- compatible to use with different automation tools such as
+	selenium, JUnit, Serenity etc..
+
+Who can use gherkin language:
+QA
+BA
+
+In user story(ticket), each and every requirement is called AC(Acceptance criteria)
+
+User Story:
+	Search by ID
+		Given user shall navigate to HRMS
+		When user is able to login with valid credentials
+		Then user shall see dasboard displayed
+		And user shall navigate to Employee List
+		When user shall search an employee by id
+		Then user shall see the employee information displayed on the table
+
+
+HW:
+Come up with login scenarios with:
+1. empty username, verify the error message
+2. empty password, verify the error message

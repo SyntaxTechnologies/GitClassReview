@@ -1,0 +1,26 @@
+Class 3
+
+Hooks vs Background
+
+Hooks are implemented for all the features across your project and
+they are based on annotations @Before and @After
+
+Background is implemented for the specific feature. It is used to define a step or
+series of steps which are common to all the tests inside you feature file.
+
+Data Driven Test in Cucumber can be performed in 2 ways:
+Scenario Outline with Examples
+Datatable
+
+Scenario vs Scenario Outline:
+Scenario will run the steps only once and finish the execution
+
+Scenario outline will run all the steps same number of time depending on how many
+sets of data you have stored inside Examples. Examples is a must for scenario outline
+
+HW:
+Search for employee
+5 sets of data for searching by id
+5 sets of data searching by name
+
+use background, and scenario outline

@@ -1,0 +1,16 @@
+Class 4
+
+Maven is a build automation tool which helps us to manage our dependencies and plugins and let's us to run our
+tests properly. The heart of Maven is pom.xml file
+
+Maven has 3 basic(built-in) cycles:
+1. default - handles your project's deployment
+2. clean - handles your project's cleaning
+3. site - handles any project's site documentation
+
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
+Functions to build:
+selectDDValue overload
+switchToFrame overload
+Actions functions - drag and drop, hover over...
